@@ -10,4 +10,5 @@ env:
     - MY_SECRET="BARDZO TAJNY SECRET"
 script: 
 - echo "BEFORE TESTS"
+- echo -e "MY VARIABLE=$MY_SECRET"
 - py.test -v
