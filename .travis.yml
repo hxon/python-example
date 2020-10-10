@@ -9,5 +9,5 @@ env:
   global:
     - MY_SECRET="BARDZO TAJNY SECRET"
 script: 
-- print("BEFORE TESTS")
+- echo "BEFORE TESTS"
 - py.test -v
